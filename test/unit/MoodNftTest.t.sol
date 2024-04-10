@@ -21,7 +21,7 @@ contract MoodNftTest is Test {
 
     function testViewTokenURI() public {
         vm.prank(USER);
-        moodNft.mintNft("");
+        moodNft.mintMoodNft("");
         console.log(moodNft.tokenURI(0), "tokenURI");
     }
 }
